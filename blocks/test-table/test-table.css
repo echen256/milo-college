@@ -1,0 +1,25 @@
+.test-table{
+  padding: var(--spacing-xxl);
+  background: var(--color-gray-800);
+  color: #FFF;
+  border-bottom: 4px solid #ff1693;
+}
+
+.test-table .flex {
+  display : flex;
+}
+
+.test-table .flex .flex-item {
+  flex : 1;
+}
+
+.test-table .column-header {
+  font-weight: 600;
+}
+
+.test-table .table-header {
+  font-weight: 800;
+  text-align: center;
+  border-bottom: 2px solid white;
+  margin-bottom: 2px;
+}
